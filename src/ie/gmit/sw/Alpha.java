@@ -1,8 +1,7 @@
 package ie.gmit.sw;
 
 /**
- * Class Alpha is fully encapsulated.
- * I removed any un-used methods.
+ * Class Alpha is fully encapsulated and has any un-used methods removed.
  * Also removed any stored beta data by deleting the arrays.
  * 
  * @author Grace Keane

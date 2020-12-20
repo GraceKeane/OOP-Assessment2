@@ -1,7 +1,7 @@
 package ie.gmit.sw;
 
 /**
- * Client class.
+ * Runner class.
  * Prints out simple results to demonstrate the use of the visitor
  * pattern to iterate over Beta, Gamma, Zeta and Epsilon.
  * 

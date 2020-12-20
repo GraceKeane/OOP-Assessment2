@@ -30,7 +30,7 @@ public class Epsilon implements Omicron{
      * Visitor asks node to accept it.
      * Then returns the correct instance of visitor for Epsilon.
      * 
-     *  @param visitor
+     * @param visitor
      */
     public double accept(Omega visitor) {
         return visitor.visitEpsilon(this);

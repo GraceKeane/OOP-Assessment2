@@ -32,7 +32,7 @@ public class Beta implements Omicron{
      * Visitor asks node to accept it.
      * Then returns the correct instance of visitor for Beta.
      * 
-     *  @param visitor
+     * @param visitor
      */
     public double accept(Omega visitor) {
         return visitor.visitBeta(this);

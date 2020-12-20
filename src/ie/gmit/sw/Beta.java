@@ -1,16 +1,14 @@
 package ie.gmit.sw;
 
-import java.util.Iterator;
-
 /**
- * Class Beta.
+ * Class Beta implements Omicron which acts as my visitable.
  * 
  * @author Grace Keane
  * @version Java 15
  * @since 18-12-2020 
  * 
  */
-public class Beta{	
+public class Beta implements Omicron{	
 	
 	private double greekNum;
 
@@ -25,14 +23,22 @@ public class Beta{
 		return (byte) (i ^ 0xFFFFFFFF);
 	}
 
+	// Assigning the value of n to be greekNum.
     Beta(double n) {
     	greekNum = n;
     }
-
+    
+    /**
+     * Visitor asks node to accept it.
+     * Then returns the correct instance of visitor for Beta.
+     * 
+     *  @param visitor
+     */
     public double accept(Omega visitor) {
         return visitor.visitBeta(this);
     }
-
+    
+    // Get greekNum and return the greekNum.
     public double getGreekNum() {
         return greekNum;
     }

@@ -1,11 +1,9 @@
 package ie.gmit.sw;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-
 /**
  * Class Alpha is fully encapsulated.
+ * I removed any un-used methods.
+ * Also removed any stored beta data by deleting the arrays.
  * 
  * @author Grace Keane
  * @version Java 15
@@ -14,8 +12,12 @@ import java.util.Iterator;
  */
 public class Alpha {
 	private Status status;
-	private int Beta;
 
+	/**
+	 * Method Alpha takes in status and returns status.
+	 * 
+	 * @param status
+	 */
 	private Alpha(Status status) {
 		System.out.println("Alpha");
 		this.status = status;
